@@ -19,6 +19,11 @@ Celem gracza jest ukończenie wszystkich poziomów. Aby to zrobić, musi kontrol
 
 3. Główne mechaniki
 
+<!> Za dużo głównych mechanik. Ruch nie jest glowna mechanika. Tutaj np tak jak w oryginale główną mechaniką jest zmiana materiału. Chyba ze opieracie swoja implementacje tylko na ruchu, 
+to ok, ale wtedy nie trzeba pisac tego w ten sposób. Wystarczy opisać sam ruch a nie każdy jego element. Wtedy nie musicie pisac tego od myslników tylko opiszczie jednym zdaniem. Proszę 
+jednak pamiętać że opisujemy grę Ballance więc conajmniej jedna mechanika musi być zawarta więcej niż ruch. np Przesuwanie obiektów co pozwoli nam pokonywać poziom<!> 
+
+
 - Toczenie kulki w wybranym kierunku.
 - Przyspieszanie i zwalnianie.
 - Poruszanie się po wąskich platformach i rampach.
@@ -96,5 +101,7 @@ Do wykonania podstawowej wersji zostaną wykorzystane:
 - Testowanie i poprawianie błędów.
 
 11. Podsumowanie
+
+<!> Polecam spróbować dodać przykładowy opis jednego poziomu i to z perspektywy gracza. Na przykład "gracz wyrusza z punktu startowego. Przekracza prosty dłuższy odcinek pochylonej platformy co nadaje mu pędu. na dole gracz ląduje na niewielkiej platformie z ktorej ma jedna droge wyjsciowa i jedna pomocnicza. droga pomocnicza pozwoli mu odblokowac zablokowana sciezke wyjsciowa przez wjechanie na mechanizm i otwarcia bramy. kula toczy sie w odpowiednim slocie co poprzez zebatki uruchamia mechanizm otwarcia bramy <!>
 
 Ballance to prosta gra zręcznościowa 3D, której główną mechaniką jest sterowanie kulką na wąskich platformach. Projekt ma na celu stworzenie grywalnej wersji w Unity, zawierającej podstawowe sterowanie, fizykę, przeszkody i kilka poziomów o rosnącym poziomie trudności.
