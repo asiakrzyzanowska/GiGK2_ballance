@@ -28,12 +28,12 @@ Celem gracza jest ukończenie wszystkich poziomów. Aby to zrobić, musi kontrol
 
 4. Sterowanie
 
-Klawisz| Funkcja
-W| Ruch do przodu
-S| Ruch do tyłu
-A| Ruch w lewo
-D| Ruch w prawo
-Esc| Pauza
+Klawisz| Funkcja:
+- W| Ruch do przodu
+- S| Ruch do tyłu
+- A| Ruch w lewo
+- D| Ruch w prawo
+- Esc| Pauza
 
 Sterowanie zostanie zaimplementowane w Unity. Ruch kulki będzie oparty na fizyce 3D.
 
@@ -51,7 +51,6 @@ Każdy poziom będzie kończył się w wyznaczonym punkcie mety.
 6. Grafika
 
 Gra będzie wykonana w grafice 3D. Najważniejszym obiektem będzie kulka, która będzie wyróżniać się na tle otoczenia.
-
 Poziomy będą składać się z platform, ramp i przeszkód. Otoczenie będzie minimalistyczne, aby gracz mógł łatwo rozpoznawać trasę.
 
 7. Dźwięk
@@ -88,13 +87,13 @@ Do wykonania podstawowej wersji zostaną wykorzystane:
 
 10. Plan wykonania
 
-1. Przygotowanie sceny i platform w Unity.
-2. Stworzenie kulki i dodanie fizyki.
-3. Implementacja sterowania w C#.
-4. Dodanie kamery podążającej za kulką.
-5. Zaprojektowanie poziomów i przeszkód.
-6. Dodanie mety oraz obsługi upadku.
-7. Testowanie i poprawianie błędów.
+- Przygotowanie sceny i platform w Unity.
+- Stworzenie kulki i dodanie fizyki.
+- Implementacja sterowania w C#.
+- Dodanie kamery podążającej za kulką.
+- Zaprojektowanie poziomów i przeszkód.
+- Dodanie mety oraz obsługi upadku.
+- Testowanie i poprawianie błędów.
 
 11. Podsumowanie
 
