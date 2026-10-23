@@ -26,10 +26,11 @@ jednak pamiętać że opisujemy grę Ballance więc conajmniej jedna mechanika m
 
 - Toczenie kulki w wybranym kierunku.
 - Przyspieszanie i zwalnianie.
-- Poruszanie się po wąskich platformach i rampach.
 - Pokonywanie przeszkód.
 - Upadek z trasy i ponowne rozpoczęcie poziomu.
 - Dotarcie do mety, aby ukończyć poziom.
+- Przesuwanie obiektów przez kulkę.
+- Zmiana materiału, a tym samym zmiana wagi kulki.
 
 4. Sterowanie
 
@@ -46,10 +47,7 @@ Sterowanie zostanie zaimplementowane w Unity. Ruch kulki będzie oparty na fizyc
 
 Gra będzie składać się z kilku poziomów o rosnącym poziomie trudności.
 
-- Poziom 1: prosta trasa, nauka sterowania.
-- Poziom 2: wąskie platformy i zakręty.
-- Poziom 3: rampy i większe różnice wysokości.
-- Poziom 4: ruchome platformy i trudniejsze przeszkody.
+- Poziom 1: prosta trasa, nauka sterowania, proste pokonywanie przeszkód
 
 Każdy poziom będzie kończył się w wyznaczonym punkcie mety.
 
